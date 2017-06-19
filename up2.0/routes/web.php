@@ -19,3 +19,5 @@ Route::get('/', 'HomeController@index');
 Route::get('/customers', 'CustomersController@index');
 
 Route::get('/customers/{customer}', 'CustomersController@show');
+
+Route::get('/customers/{customer}/create', 'CustomersController@create');

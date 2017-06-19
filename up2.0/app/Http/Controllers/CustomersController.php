@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Customers;
 
 use App\Customers;
 
@@ -20,7 +20,8 @@ class CustomersController extends Controller
     	return view('Customers.show', compact('customer'));
 	}
 
-	public function create(){
-		return view('Customers.create');
-	}
+	 public function create()
+    {
+    return view('Customers.create');
+    }
 }

@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>create</title>
-</head>
-<body>
-create
-</body>
-</html>
+@extends('layouts.master')
+
+@section('content')
+
+<h1>Add a New Task</h1>
+<p class="lead">Add to your task list below.</p>
+<hr>
+
+@stop

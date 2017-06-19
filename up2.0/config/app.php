@@ -228,4 +228,8 @@ return [
 
     ],
 
+    'Illuminate\Html\HtmlServiceProvider',
+    'Form'      => 'Illuminate\Html\FormFacade',
+    'Html'      => 'Illuminate\Html\HtmlFacade',
+
 ];
